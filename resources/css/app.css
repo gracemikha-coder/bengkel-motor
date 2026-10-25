@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    color-scheme: light;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+[x-cloak] {
+    display: none !important;
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    @apply bg-slate-50 text-slate-800 antialiased;
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+}
+
+input, select, button, textarea {
+    min-height: 44px;
+}
+
+input[type="checkbox"] {
+    min-height: 1rem;
+}
+
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+a:focus-visible {
+    @apply outline-none ring-2 ring-blue-500 ring-offset-2;
+}
+
+@media print {
+    .no-print {
+        display: none !important;
+    }
+
+    body {
+        background: white !important;
+    }
+
+    .print-sheet {
+        width: 72mm;
+        margin: 0 auto;
+        box-shadow: none !important;
+        border: none !important;
+    }
+}

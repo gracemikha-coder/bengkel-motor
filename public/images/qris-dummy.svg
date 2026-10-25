@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="title">
+  <title id="title">QRIS dummy, bukan kode pembayaran</title>
+  <rect width="240" height="240" rx="12" fill="#fff"/>
+  <g fill="#0f172a">
+    <path d="M20 20h64v64H20zm12 12v40h40V32zM156 20h64v64h-64zm12 12v40h40V32zM20 156h64v64H20zm12 12v40h40v-40z"/>
+    <path d="M104 20h16v16h-16zm24 0h16v32h-16zm-24 24h16v24h-16zm24 16h24v16h-24zm-32 32h16v16H96zm24 0h16v24h-16zm32 0h16v16h-16zm24 0h16v24h-16zm-80 24h24v16h-24zm32 8h16v24h-16zm24-8h16v16h-16zm24 8h24v16h-24zm-80 24h16v16h-16zm24 8h24v16h-24zm32-8h16v24h-16zm24 8h16v16h-16zm24-8h16v24h-16zm-48 32h16v16h-16zm24 8h16v16h-16zm24-8h16v24h-16z"/>
+  </g>
+  <rect x="71" y="101" width="98" height="38" rx="7" fill="#0f766e"/>
+  <text x="120" y="127" fill="#fff" font-family="sans-serif" font-size="22" font-weight="700" text-anchor="middle">DEMO</text>
+</svg>
